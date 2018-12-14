@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.11">
+    <root id="1">
+      <ServerVersion>11.2.0.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="XIAOPING">
+      <ObjectId>93</ObjectId>
+      <IntrospectionTimestamp>2018-12-12.17:16:35</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-12-12.01:52:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-12.17:16:34</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SCOTT">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="HR">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="OE">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="IX">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SH">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="PM">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="BI">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="HNRP">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="USER_PING">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="42" parent="2" name="BILL_ID">
+      <ObjectId>76437</ObjectId>
+      <CreatedTimestamp>2018-12-12.01:52:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-12.01:52:51</ModifiedTimestamp>
+      <SequenceIdentity>10..20000</SequenceIdentity>
+    </sequence>
+    <sequence id="43" parent="2" name="TYPE_ID">
+      <ObjectId>76440</ObjectId>
+      <CreatedTimestamp>2018-12-12.05:07:45</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-12.05:07:45</ModifiedTimestamp>
+      <SequenceIdentity>10..20000</SequenceIdentity>
+    </sequence>
+    <sequence id="44" parent="2" name="USER_ID">
+      <ObjectId>76439</ObjectId>
+      <CreatedTimestamp>2018-12-12.05:07:35</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-12.05:07:35</ModifiedTimestamp>
+      <SequenceIdentity>10..20000</SequenceIdentity>
+    </sequence>
+    <table id="45" parent="2" name="BILL_INFO">
+      <ObjectId>76541</ObjectId>
+      <CreatedTimestamp>2018-12-12.17:16:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-12.17:16:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="2" name="IOTYPE_INFO">
+      <ObjectId>76448</ObjectId>
+      <CreatedTimestamp>2018-12-12.05:33:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-12.05:40:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="2" name="USER_INFO">
+      <ObjectId>76445</ObjectId>
+      <CreatedTimestamp>2018-12-12.05:33:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-12.05:33:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="48" parent="45" name="BILL_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="45" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="45" name="BILL_TYPE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="45" name="BILL_CLASS">
+      <Position>4</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="45" name="BILL_MONEY">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="45" name="PAY_TIME">
+      <Position>6</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="45" name="CREATE_TIME">
+      <Position>7</Position>
+      <DataType>DATE|0s</DataType>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <index id="55" parent="45" name="SYS_C0012348">
+      <ObjectId>76542</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-12.17:16:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-12.17:16:34</ModifiedTimestamp>
+      <TablespaceName>ON_ORDERS</TablespaceName>
+      <ColNames>BILL_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="45" name="SYS_C0012348">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-12-12.17:16:34</ModifiedTimestamp>
+      <ColNames>BILL_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012348</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="46" name="TYPE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="58" parent="46" name="TYPE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="59" parent="46" name="TYPE_DESCRIPTION">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="60" parent="46" name="CREATE_TIME">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <index id="61" parent="46" name="TYPE_NAME_U1">
+      <ObjectId>76449</ObjectId>
+      <CreatedTimestamp>2018-12-12.05:40:28</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-12.05:40:28</ModifiedTimestamp>
+      <TablespaceName>ON_ORDERS</TablespaceName>
+      <ColNames>TYPE_NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="62" parent="46" name="TYPE_NAME_U1">
+      <ModifiedTimestamp>2018-12-12.05:40:28</ModifiedTimestamp>
+      <ColNames>TYPE_NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TYPE_NAME_U1</UnderlyingIndexName>
+    </key>
+    <check id="63" parent="46" name="CHECK_TB_TYPE_DESCRIPTION">
+      <ModifiedTimestamp>2018-12-12.05:33:20</ModifiedTimestamp>
+      <ColNames>TYPE_DESCRIPTION</ColNames>
+      <Predicate>type_description=&apos;收入&apos; or type_description=&apos;支出&apos;</Predicate>
+    </check>
+    <column id="64" parent="47" name="USER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="47" name="PHONE_NUM">
+      <Position>2</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="47" name="PSD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(16 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="47" name="USER_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(8 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="47" name="CREATE_TIME">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+      <DefaultExpression>sysdate&#xd;
+</DefaultExpression>
+    </column>
+  </database-model>
+</dataSource>
