@@ -22,6 +22,7 @@ import java.util.List;
 
 import com.managMoney.data.ConnentOrcl;
 import com.managMoney.entity.Bill;
+import com.managMoney.entity.IncomeAndExpenditType;
 import com.sun.org.apache.regexp.internal.recompile;
 
 public class Service {
@@ -163,7 +164,27 @@ public class Service {
         return bills;
     }
 
-    
+    public List<IncomeAndExpenditType> getIncomeAndExpenditTypesList(String type) {
+		
+    	List<IncomeAndExpenditType> incomeAndExpenditTypes = new ArrayList<IncomeAndExpenditType>();
+        connection = dbs.getConnection();
+
+        String sql = ("select * from IOTYPE_INFO where type_description='"+type +"'");
+        try {
+            pstm = connection.prepareStatement(sql);
+            rs = pstm.executeQuery();
+            while (rs.next()) {
+            	IncomeAndExpenditType incomeAndExpenditType = new IncomeAndExpenditType();
+            	incomeAndExpenditType.setName(rs.getString("type_name"));
+            	incomeAndExpenditTypes.add(incomeAndExpenditType);
+              System.out.println(incomeAndExpenditType.getName());
+          }
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return incomeAndExpenditTypes;
+	}
    
     public void register(String phoneNum, String psd, String userName) {
         connection = dbs.getConnection();
@@ -185,9 +206,9 @@ public class Service {
 //        new Service().deleteType("饮食");
 //        new Service().register("13577888899", "dxp123456", "小二");
 //
-//        new Service().insertBill("收入", "兼职", "家教", 150, "2018-12-13");
+        new Service().insertBill("支出", "饮食", "晚餐", 13, "2018-12-14");
 //        new Service().deleteBill(1007);
 //        new Service().modifyBill("bill_money",200);
-    	new Service().getBillList("支出");
+//    	new Service().getBillList("支出");
     }
 }

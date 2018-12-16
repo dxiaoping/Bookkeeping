@@ -5,6 +5,6 @@
     <file url="file://$PROJECT_DIR$/src/com/managMoney/service/LoginConfirm.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/managMoney/service/Service.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/managMoney/view/LoginView.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/managMoney/view/Window.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/managMoney/viewtest/Menu_hello.java" charset="GBK" />
   </component>
 </project>
